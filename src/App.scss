@@ -1,1 +1,22 @@
-// style go here
+.container{
+  max-width: 1300px;
+  overflow: hidden;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  input {
+    padding: 5px;
+    width: 200px;
+    font-size: 14px;
+  }
+}
